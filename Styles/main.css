@@ -1,0 +1,56 @@
+/* Base page layout */
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Arial', 'Sans-serif';
+
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header, footer{
+    flex-shrink: 0;
+    text-align: center;
+    background-color: lightgreen;
+    font-weight: bold;
+}
+footer #IconRow{
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .75em 0 .15em 0;
+}
+footer p{
+    font-style: italic;
+    font-size: .75em;
+}
+
+h1{
+    font-size:1.5em;
+}
+h2,h3{
+    font-size: 1.25em;
+}
+
+/* Styles that control the story area */
+#StoryContent{
+    flex: 1 0 auto;
+    padding: 20px;
+    line-height: 1.25em;
+}
+#StoryTitle{
+    margin:0;
+    text-align: center;
+}
+#StoryBody{
+    line-height: 1.75;
+}
+.storyValue{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: .9em;
+}
