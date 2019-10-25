@@ -49,7 +49,7 @@ h2,h3{
 #StoryBody{
     line-height: 1.75;
 }
-.storyValue{
+#StoryBody span{
     font-style: italic;
     text-decoration: underline;
     font-size: .9em;
